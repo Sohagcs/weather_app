@@ -6,7 +6,15 @@ const city_name = document.getElementById('city_name');
 const temp_real_val = document.getElementById('temp_real_val');
 const temp_status = document.getElementById('temp_status');
 
+var td= new Date().toDateString();
+var ct= new Date().toLocaleTimeString();
+
 const datahide = document.querySelector('.middle_layer');
+
+
+day.innerText=td
+today_date.innerText=ct
+
 
 const getInfo = async(event) =>{
     event.preventDefault();

@@ -20,11 +20,13 @@
                 </div>
                 <div class="tempInformation">
                     <div class="top_layer">
-                        <p id="day">Sunday</p>
-                        <p id="today_data">13 june</p>
+                        {{!-- <p id="day">Sunday</p>
+                        <p id="today_data">15 june</p> --}}
+                        <p id="day" style="color: rgb(9, 248, 89);">}</p>
+                        <p id="today_date" style="color:rgb(255, 238, 0);"></p>
                     </div>
                     <div class="main_layer">
-                        <p id="city_name">Get Output Here</p>
+                        <p id="city_name" style="color: rgb(104, 238, 14);">Get Output Here</p>
                         <div class="middle_layer data_hide">
                             <p id="temp"><span id="temp_real_val">0</span> <sup>o</sup>C</p>
                             <p id="temp_status">  <i class="fa fa-cloud" aria-hidden="true"></i> </p>
@@ -39,7 +41,7 @@
 {{>footer}}
 
 <script src="js/main.js"></script>
-<script> 
+{{!-- <script> 
     
 
     const getCurrentDay = () => {
@@ -60,7 +62,7 @@
     };
 
     getCurrentDay();
-</script>
+</script> --}}
 
 </body>
 </html>
